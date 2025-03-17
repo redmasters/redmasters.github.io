@@ -1,15 +1,177 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="1; url='https://thawing-tundra-63943.herokuapp.com/'" />
-    <title>redmasters</title>
+    <title>Desenvolvedor Backend Java</title>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Ícones -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Devicon (para ícones de tecnologias) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://source.unsplash.com/random/1920x1080/?code');
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        
+        .tech-icons i {
+            font-size: 4rem;
+            margin: 15px;
+            color: #26a69a;
+        }
+        
+        .card {
+            transition: transform 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .section {
+            padding: 4rem 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello you!</h1>
-    <p>Voce esta sendo redirecionadooo</p>
-    
+    <!-- Navbar -->
+    <nav class="blue-grey darken-3">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">Java Dev</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container center-align">
+            <h1>Desenvolvedor Backend Java</h1>
+            <h4 class="light">Construindo sistemas robustos e escaláveis</h4>
+        </div>
+    </div>
+
+    <!-- Sobre -->
+    <div id="sobre" class="section white">
+        <div class="row container">
+            <h2 class="header">Sobre Mim</h2>
+            <p class="flow-text">Desenvolvedor backend com X anos de experiência em desenvolvimento de sistemas distribuídos utilizando Java e tecnologias relacionadas. Especializado em construção de APIs RESTful, microservices e integração de sistemas.</p>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="skills" class="section blue-grey lighten-5">
+        <div class="container">
+            <h3 class="center-align">Tecnologias</h3>
+            <div class="row center-align tech-icons">
+                <i class="devicon-java-plain"></i>
+                <i class="devicon-spring-plain"></i>
+                <i class="devicon-docker-plain"></i>
+                <i class="devicon-postgresql-plain"></i>
+                <i class="devicon-redis-plain"></i>
+                <i class="devicon-gradle-plain"></i>
+                <i class="devicon-linux-plain"></i>
+                <i class="devicon-kubernetes-plain"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projetos -->
+    <div id="projetos" class="section white">
+        <div class="container">
+            <h3 class="center-align">Projetos Destacados</h3>
+            <div class="row">
+                <!-- Projeto 1 -->
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Sistema de Pedidos</span>
+                            <p>Microsserviços escaláveis usando Spring Boot e Kafka</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="teal-text">GitHub</a>
+                            <a href="#" class="teal-text">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais projetos conforme necessário -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contato -->
+    <div id="contato" class="section blue-grey lighten-5">
+        <div class="container">
+            <h3 class="center-align">Contato</h3>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="nome" type="text" class="validate">
+                            <label for="nome">Nome</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="mensagem" class="materialize-textarea"></textarea>
+                            <label for="mensagem">Mensagem</label>
+                        </div>
+                    </div>
+                    <button class="btn waves-effect waves-light teal" type="submit">Enviar
+                        <i class="material-icons right">send</i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer blue-grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h5 class="white-text">Conecte-se</h5>
+                    <a href="https://github.com/seuuser" class="white-text"><i class="devicon-github-original"></i> GitHub</a>
+                    <a href="https://linkedin.com/in/seuuser" class="white-text"><i class="devicon-linkedin-plain"></i> LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Inicializa componentes do Materialize
+            M.AutoInit();
+            
+            // Smooth scroll
+            $('a[href^="#"]').on('click', function(event) {
+                event.preventDefault();
+                var target = $(this.getAttribute('href'));
+                if( target.length ) {
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
+        });
+    </script>
 </body>
 </html>
