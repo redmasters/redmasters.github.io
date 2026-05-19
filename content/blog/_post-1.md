@@ -6,9 +6,9 @@ toc: true
 ---
 Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicacoes mais leves, ja que o java consome muito recurso.
 
-Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linux e um hello world basico. A doc tb ensina sobre a estrutura inicial da funcao main e um pouco mais a frente como iniciar um projeto usando o cargo. Muito satisfatorio essa primeira experiencia, pois a estrutura me lembra muito do que projetos em java e node.
+Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linux e um hello world basico. A doc tb ensina sobre a estrutura inicial da funcao main e um pouco mais a frente como iniciar um projeto usando o cargo. Muito satisfatorio essa primeira experiencia, pois a estrutura me lembra muito os projetos em java e node.
 
-Tive que reinstalar o Go pra fazer funcionar assim como outras dependencias. Depois disso foi sucesso, so seguir a documentacao com os comandos iniciais, na sessao 'Hello, Cargo!', me parece onde as coisas fazem mais sentido, quando levadas ha um ambiente de desenvolvimento profissional.
+Tive que reinstalar o Go pra fazer funcionar assim como outras dependencias. Depois disso foi sucesso, so seguir a documentacao com os comandos iniciais. Na sessao 'Hello, Cargo!', me parece onde as coisas fazem mais sentido, quando levadas ha um ambiente de desenvolvimento profissional.
 
 Deixando aqui alguns comandos que sao bem uteis tirados da propria documentacao:
 
