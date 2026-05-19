@@ -15,4 +15,6 @@ We can build a project using `cargo build`.</br>
 We can build and run a project in one step using `cargo run`.</br>
 We can build a project without producing a binary to check for errors using `cargo check`.
 
+Ademais como treinamento de habito pretendo usar pelo menos 20 minutos diarios para ir avancando na doc. Nao tenho muita pressa e ir nesse ritmo creio que nao vai demandar esforco desnecessario.
+
 Eis o site da doc: <https://doc.rust-lang.org/book/ch01-00-getting-started.html>
