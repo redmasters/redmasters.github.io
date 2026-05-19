@@ -1,6 +1,8 @@
 ---
 title: "Aprendendo Rust"
 date: 2026-05-18T00:12:44-03:00
+tags: ["rust", "learning"]
+toc: true
 ---
 Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicaoes mais leves, ja que o java consome muito recurso.
 

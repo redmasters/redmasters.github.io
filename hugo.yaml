@@ -1,6 +1,14 @@
 # Hugo configuration file
 title: Erasmo Jr.
-
+defaultContentLanguage: pt-br
+languages:
+  en:
+    languageName: English
+    weight: 2
+  pt-br:
+    languageName: Portugues-Brasil
+    weight: 1
+  
 # import hextra as module
 module:
   imports:
@@ -37,13 +45,25 @@ menu:
       params:
         icon: github
 
+enableGitInfo: true
 params:
+  displayUpdateDate: true
+  dateFormat: "2 January, 2006"
+  blog:
+    list:
+      displayTags: true
+  toc:
+    displayTags: true
+    
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+  theme:
+    default: dark
+    displayToggle: true
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: true
 
   editURL:

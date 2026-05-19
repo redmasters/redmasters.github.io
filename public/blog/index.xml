@@ -4,7 +4,7 @@
     <link>//localhost:1313/blog/</link>
     <description>Recent content in Blogs on Erasmo Jr.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>pt-br</language>
     <lastBuildDate>Mon, 18 May 2026 00:12:44 -0300</lastBuildDate>
     
 	  <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -35,6 +35,7 @@ We can build and run a project in one step using &lt;code&gt;cargo run&lt;/code&
 We can build a project without producing a binary to check for errors using &lt;code&gt;cargo check&lt;/code&gt;.&lt;/p&gt;
 
 &lt;/blockquote&gt;
+&lt;p&gt;Ademais como treinamento de habito pretendo usar pelo menos 20 minutos diarios para ir avancando na doc. Nao tenho muita pressa e ir nesse ritmo creio que nao vai demandar esforco desnecessario.&lt;/p&gt;
 &lt;p&gt;Eis o site da doc: &lt;a href=&#34;https://doc.rust-lang.org/book/ch01-00-getting-started.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doc.rust-lang.org/book/ch01-00-getting-started.html&lt;/a&gt;&lt;/p&gt;
 
       </description>
