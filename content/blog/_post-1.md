@@ -4,7 +4,7 @@ date: 2026-05-18T00:12:44-03:00
 tags: ["rust", "learning"]
 toc: true
 ---
-Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicaoes mais leves, ja que o java consome muito recurso.
+Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicacoes mais leves, ja que o java consome muito recurso.
 
 Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linux e um hello world basico. A doc tb ensina sobre a estrutura inicial da funcao main e um pouco mais a frente como iniciar um projeto usando o cargo. Muito satisfatorio essa primeira experiencia, pois a estrutura me lembra muito do que projetos em java e node.
 
