@@ -9,16 +9,16 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 <title>Aprendendo Rust – Erasmo Jr.</title>
-  <meta name="description" content="Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicaoes mais leves, ja que o java consome muito recurso.
-Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linux e um hello world basico. A doc tb ensina sobre a estrutura inicial da funcao main e um pouco mais a frente como iniciar um projeto usando o cargo. Muito satisfatorio essa primeira experiencia, pois a estrutura me lembra muito do que projetos em java e node." /><link rel="canonical" href="//localhost:1313/blog/_post-1/" itemprop="url" />
+  <meta name="description" content="Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicacoes mais leves, ja que o java consome muito recurso.
+Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linux e um hello world basico. A doc tb ensina sobre a estrutura inicial da funcao main e um pouco mais a frente como iniciar um projeto usando o cargo. Muito satisfatorio essa primeira experiencia, pois a estrutura me lembra muito os projetos em java e node." /><link rel="canonical" href="//localhost:1313/blog/_post-1/" itemprop="url" />
 
 <meta property="og:title" content="Aprendendo Rust">
 <meta
   property="og:description"
   content="
     
-      Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicaoes mais leves, ja que o java consome muito recurso.
-Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linux e um hello world basico. A doc tb ensina sobre a estrutura inicial da funcao main e um pouco mais a frente como iniciar um projeto usando o cargo. Muito satisfatorio essa primeira experiencia, pois a estrutura me lembra muito do que projetos em java e node.
+      Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicacoes mais leves, ja que o java consome muito recurso.
+Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linux e um hello world basico. A doc tb ensina sobre a estrutura inicial da funcao main e um pouco mais a frente como iniciar um projeto usando o cargo. Muito satisfatorio essa primeira experiencia, pois a estrutura me lembra muito os projetos em java e node.
     
   ">
 <meta
@@ -35,21 +35,21 @@ Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linu
 
 <meta
   property="article:modified_time"
-  content="2026-05-19T01:18:43-03:00">
+  content="2026-05-19T02:00:47-03:00">
 
 
 
   <meta itemprop="name" content="Aprendendo Rust">
-  <meta itemprop="description" content="Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicaoes mais leves, ja que o java consome muito recurso.
-Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linux e um hello world basico. A doc tb ensina sobre a estrutura inicial da funcao main e um pouco mais a frente como iniciar um projeto usando o cargo. Muito satisfatorio essa primeira experiencia, pois a estrutura me lembra muito do que projetos em java e node.">
+  <meta itemprop="description" content="Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicacoes mais leves, ja que o java consome muito recurso.
+Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linux e um hello world basico. A doc tb ensina sobre a estrutura inicial da funcao main e um pouco mais a frente como iniciar um projeto usando o cargo. Muito satisfatorio essa primeira experiencia, pois a estrutura me lembra muito os projetos em java e node.">
   <meta itemprop="datePublished" content="2026-05-18T00:12:44-03:00">
-  <meta itemprop="dateModified" content="2026-05-19T01:18:43-03:00">
-  <meta itemprop="wordCount" content="224">
+  <meta itemprop="dateModified" content="2026-05-19T02:00:47-03:00">
+  <meta itemprop="wordCount" content="223">
   <meta itemprop="keywords" content="Rust,Learning">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Aprendendo Rust">
-  <meta name="twitter:description" content="Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicaoes mais leves, ja que o java consome muito recurso.
-Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linux e um hello world basico. A doc tb ensina sobre a estrutura inicial da funcao main e um pouco mais a frente como iniciar um projeto usando o cargo. Muito satisfatorio essa primeira experiencia, pois a estrutura me lembra muito do que projetos em java e node.">
+  <meta name="twitter:description" content="Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicacoes mais leves, ja que o java consome muito recurso.
+Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linux e um hello world basico. A doc tb ensina sobre a estrutura inicial da funcao main e um pouco mais a frente como iniciar um projeto usando o cargo. Muito satisfatorio essa primeira experiencia, pois a estrutura me lembra muito os projetos em java e node.">
 <link href="/css/compiled/main.css" rel="stylesheet" />
     <link href="/css/variables.css" rel="stylesheet" />
     <link href="/css/custom.css" rel="stylesheet" />
@@ -171,7 +171,17 @@ Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linu
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="true"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
-        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="true">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/_post-2/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Primeira aplicacao em Rust</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="true">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hextra-sidebar-active-item hx:bg-primary-100 hx:font-semibold hx:text-primary-800 hx:contrast-more:border hx:contrast-more:border-primary-500 hx:dark:bg-primary-400/10 hx:dark:text-primary-600 hx:contrast-more:dark:border-primary-500"
       href="/blog/_post-1/"
@@ -339,9 +349,9 @@ Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linu
         
         <div class="hx:mt-4 hx:mb-16 hx:text-gray-500 hx:dark:text-gray-400 hx:text-sm hx:flex hx:items-center hx:flex-wrap hx:gap-y-2"><span class="hx:mr-1">18 maio, 2026</span></div>
         <div class="content">
-          <p>Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicaoes mais leves, ja que o java consome muito recurso.</p>
-<p>Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linux e um hello world basico. A doc tb ensina sobre a estrutura inicial da funcao main e um pouco mais a frente como iniciar um projeto usando o cargo. Muito satisfatorio essa primeira experiencia, pois a estrutura me lembra muito do que projetos em java e node.</p>
-<p>Tive que reinstalar o Go pra fazer funcionar assim como outras dependencias. Depois disso foi sucesso, so seguir a documentacao com os comandos iniciais, na sessao &lsquo;Hello, Cargo!&rsquo;, me parece onde as coisas fazem mais sentido, quando levadas ha um ambiente de desenvolvimento profissional.</p>
+          <p>Guiado pela documentação oficial do Rust, estou aprendendo a linguagem como uma alternativa pra construir aplicacoes mais leves, ja que o java consome muito recurso.</p>
+<p>Nesta primeira sessao aprendi o basico sobre instalacao do Rust em ambiente linux e um hello world basico. A doc tb ensina sobre a estrutura inicial da funcao main e um pouco mais a frente como iniciar um projeto usando o cargo. Muito satisfatorio essa primeira experiencia, pois a estrutura me lembra muito os projetos em java e node.</p>
+<p>Tive que reinstalar o Go pra fazer funcionar assim como outras dependencias. Depois disso foi sucesso, so seguir a documentacao com os comandos iniciais. Na sessao &lsquo;Hello, Cargo!&rsquo;, me parece onde as coisas fazem mais sentido, quando levadas ha um ambiente de desenvolvimento profissional.</p>
 <p>Deixando aqui alguns comandos que sao bem uteis tirados da propria documentacao:</p>
 <blockquote>
   <p>We can create a project using <code>cargo new</code>.</br>
@@ -353,7 +363,11 @@ We can build a project without producing a binary to check for errors using <cod
 <p>Ademais como treinamento de habito pretendo usar pelo menos 20 minutos diarios para ir avancando na doc. Nao tenho muita pressa e ir nesse ritmo creio que nao vai demandar esforco desnecessario.</p>
 <p>Eis o site da doc: <a href="https://doc.rust-lang.org/book/ch01-00-getting-started.html"target="_blank" rel="noopener">https://doc.rust-lang.org/book/ch01-00-getting-started.html</a></p>
 
-        </div><div class="hx:mt-16"></div></main>
+        </div><div class="hx:mt-16"></div><div class="hx:mb-8 hx:flex hx:items-center hx:border-t hx:pt-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-neutral-400 hx:dark:contrast-more:border-neutral-400 hx:print:hidden"><a
+        href="/blog/_post-2/"
+        title="Primeira aplicacao em Rust"
+        class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:ml-auto hx:ltr:pl-4 hx:ltr:text-right hx:rtl:mr-auto hx:rtl:pr-4 hx:rtl:text-left"
+      >Primeira aplicacao em Rust<svg class="hx:inline hx:h-5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div></main>
     </article>
   </div>
 
