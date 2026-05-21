@@ -5,7 +5,7 @@ type: about
 
 # links
 
-[github](https://github.com/redmasters) [linkedin](https://linkedin.com/in/erasmocjunior) [resume]()
+[github](https://github.com/redmasters) [linkedin](https://linkedin.com/in/erasmocjunior) [resume]({{% relref "./resume.md" %}})
 
 # experiencias
 
