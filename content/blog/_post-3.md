@@ -1,6 +1,7 @@
 ---
 title: "A diversao ta comecando"
 date: 2026-05-20T22:36:19-03:00
+tags: ["rust", "learning"]
 ---
 
 Aqui eu acho que entendi o que o `match` significa. Basicamente eh uma estrutura que compara o resultado de uma expressao. No [post anterior]({{% ref "/blog/_post-2"%}}), vimos que o `match` eh escrito logo antes da funcao, o que pra mim foi bem estranho mas esta estutura compara o resultado da funcao e verifica se ha alguma compatibilidade de respostas. Neste ponto creio que seja quase igual o `Comparator` ou `Comparable` do java.
