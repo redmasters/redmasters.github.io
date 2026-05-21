@@ -41,7 +41,7 @@ menu:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/redmasters/redblogsite"
+      url: "https://github.com/redmasters/redmasters.github.io"
       params:
         icon: github
 
