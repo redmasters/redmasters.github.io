@@ -19,7 +19,7 @@ loop {
 
 Fiquei olhando pra isso e me pergutando onde ia quebrar pois, nao era possivel. Mas eh possivel sim, simples e direto. Eh um loop e pronto, vc decide se ele vai ficar infinito ou parar, no caso do programa do tutorial o ``break`` se da quando vc acerta o numero.
 
-Creio que nesta sessao do tutorial, o uso do ``match``, ``let``, ``loop`` e ``mut`` foram bem exemplificados. O ``match`` principalmente onde, gracas a ele o programa consegue fazer uma validacao de insercao de valores do usuario, caso seja diferente de um numero ele retorna um ``Result`` do tipo ``Err`` e continua no ``loop`` caso contratio ele retornar o numero e segue o fluxo do codigo.
+Creio que nesta sessao do tutorial, o uso do ``match``, ``let``, ``loop`` e ``mut`` foram bem exemplificados. O ``match`` principalmente onde, gracas a ele o programa consegue fazer uma validacao de insercao de valores do usuario, caso seja diferente de um numero ele retorna um ``Result`` do tipo ``Err`` e continua no ``loop`` caso contrario ele retorna o numero e segue o fluxo do codigo.
 
 Muito interessante o aprendizado ate agora, vou criar alguns exercicios para praticar o que aprendi durante o tutorial do [guessing game](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html).
 
