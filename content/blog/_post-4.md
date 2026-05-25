@@ -1,6 +1,7 @@
 ---
 title: "Programa Completo!"
 date: 2026-05-24T20:49:18-03:00
+tags: ["rust", "learning"]
 ---
 Hoje finalizei o 'guessing game', programa em Rust do tutorial. Ainda estou estupefato como eh simples tratar erros em rust e usar ``loop``.
 
