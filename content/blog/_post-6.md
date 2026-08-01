@@ -39,6 +39,6 @@ Algumas screenshots do redoxide:
 ![painel items](/images/items-panel.png)
 > Painel com sugestao para build de itens, baseado em Win Rates
 
-Mais paineis ou benchmarks serao adicionados conforme eu achar necessidade, to pensando em algum tracking de performance por posicao (Carry, Mid, Off ou Suportes) mas isso eh soh ideia.
+Mais painéis ou benchmarks serão adicionados conforme eu achar necessidade; tô pensando em algum tracking de performance por posição (Carry, Mid, Off ou Suportes), mas isso é só ideia.
 
-Falei falei mas ta aqui o link do git: <https://github.com/redmasters/redoxide-dota>
+Falei falei mas tá aqui o link do git: <https://github.com/redmasters/redoxide-dota>
