@@ -5,7 +5,7 @@
     <description>Recent content in Blogs on Erasmo Jr.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 31 May 2026 00:16:08 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 13:26:00 +0000</lastBuildDate>
     
 	  <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,6 +14,52 @@
         
       
     
+    
+    <item>
+      <title>redoxide - Dota Overlay free em Rust</title>
+      <link>//localhost:1313/blog/_post-6/</link>
+      <pubDate>Sat, 01 Aug 2026 13:26:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/blog/_post-6/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Sempre que me perguntam como iniciar em programacao eu sempre falo a mesmma coisa, parece ate uma frase batida e repito: &amp;ldquo;Aprenda com projetos&amp;rdquo;, &amp;ldquo;Erre, leia o debug&amp;rdquo;, &amp;ldquo;Leia a documentacao&amp;rdquo;. Creio que seja o caminho mais rapido se voce quer ver como as coisas funcionam. Entao eu estou provando do que eu mesmo digo, estou aprendendo Rust e decidi fazer um projet que me ajuda no dia dia.&lt;/p&gt;
+&lt;p&gt;Vibecodado obviamente, desde o backend ao front, ainda to engatinhando com Rust, mal sei as variaveis basicas, constantes etc. Mas vendo como &amp;ldquo;as coisas funcionam &amp;quot; me faz entender e meio que me obriga a aprender a ler o codigo pois, no final por mais que a IA escreva todo o codigo, eu quero saber se o fluxo esta como planejei, se nao tem algo a ser melhorado e nada melhor que aprender programacao, programando de fato (mesmo que seja o Copilot hehe).&lt;/p&gt;
+&lt;h2&gt;O Projeto&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;o-projeto&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#o-projeto&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/redoxide.png&#34; alt=&#34;redoxide logo?&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Eh um overlay que fica sobre o Dota2 com alguns paineis com feedbacks visuais e benchmarks da partida atual. Ele eh como um assistente que te indica se voce ta performando bem dentro da partida com dados como &amp;lsquo;farming&amp;rsquo;, &amp;rsquo;timming&amp;rsquo; de itens, patrimonio etc. Sao metricas comuns que voce como jogador acha em sites como o Stratz, DotaBuff e o OpenDota, metricas comuns e gratuitas.&lt;/p&gt;
+&lt;p&gt;Hoje existem overlays que ja fazem muito bem esse trabalho, como o Overwolf Overlay e o Stratz mas certa vez no trabalho eu ouvi que &amp;ldquo;nos programadores somos como pedreiros, fazemos a casa dos outros mas nao construimos nada pra nos&amp;rdquo;. O que faz totalmente sentido pois &amp;ldquo;contruir a casa dos outros&amp;rdquo; eh o nosso trabalho e ao terminar o dia de servico tenho toda certeza que voce nao quer continuar trabalhando. Mais ai nessa ideia que nos como programadores nao construimos nada pra nos, um merda ne?! Dai pensei &amp;ldquo;ora pois, sou programador e vou construir e algo que preciso.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Uni o util (preciso aprender rust) ao agradavel (overlay pro meu dotinha) e to desenvolvendo esse projeto, meu objetivo eh deixar free pra comunidade dota usar e quem sabe contribuir para evolucao, eu peco muito em design de interfaces entao deixo tudo na mao do copilot e das skills sobre ui/ux que encontro.&lt;/p&gt;
+&lt;h1&gt;Ibagens&lt;/h1&gt;&lt;p&gt;Algumas screenshots do redoxide:&lt;/p&gt;
+&lt;h2&gt;Painel Gerenciador&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;painel-gerenciador&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#painel-gerenciador&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/manager.png&#34; alt=&#34;Gerenciador&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Painel Gerenciador do usuario&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/manager-dev.png&#34; alt=&#34;Gerenciador com dev tools&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Painel Gerenciador com algumas ferramentas pra teste&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;h2&gt;Painel de Patrimonio &amp;ldquo;Networth Panel&amp;rdquo;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;painel-de-patrimonio-networth-panel&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#painel-de-patrimonio-networth-panel&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/networth-panel.png&#34; alt=&#34;painel networth&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Painel onde o player verifica em tempo real se esta dentro do timming de farm&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;h2&gt;Painel de Itens&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;painel-de-itens&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#painel-de-itens&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/items-panel.png&#34; alt=&#34;painel items&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Painel com sugestao para build de itens, baseado em Win Rates&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;p&gt;Mais paineis ou benchmarks serao adicionados conforme eu achar necessidade, to pensando em algum tracking de performance por posicao (Carry, Mid, Off ou Suportes) mas isso eh soh ideia.&lt;/p&gt;
+&lt;p&gt;Falei falei mas ta aqui o link do git: &lt;a href=&#34;https://github.com/redmasters/redoxide-dota&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/redmasters/redoxide-dota&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
     
     <item>
       <title>Primeiro Exercicio</title>
