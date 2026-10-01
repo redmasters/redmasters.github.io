@@ -54,6 +54,8 @@ Brazilian - São Luís, Maranhão.</br>
   - **AI Integration:** Integrated AI-based solutions (RAG, agents, and specification-driven code generation) into the development workflow.
   - **Stack:** Java 21, Oracle DB, Apache Kafka, and the AWS ecosystem (EC2, S3, DynamoDB, Lambda, SQS).
 
+> *Key Technologies: Java 21, Oracle DB, Apache Kafka, AWS (EC2, S3, DynamoDB, Lambda, SQS), RAG, Agents.*
+
   </br>
 
 - **PagBank - Mid-Level Backend Software Engineer - Jun/2024 - Mai/2026**</br>
