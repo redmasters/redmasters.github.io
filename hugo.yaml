@@ -1,13 +1,89 @@
 # Hugo configuration file
 title: Erasmo Jr.
 defaultContentLanguage: pt-br
+defaultContentLanguageInSubdir: false
 languages:
+  pt-br:
+    languageName: Português (Brasil)
+    languageCode: pt-BR
+    weight: 1
+    title: Erasmo Jr.
+    params:
+      description: Blog de Erasmo Jr. sobre desenvolvimento de software, Rust, Java e projetos pessoais.
+    menu:
+      main:
+        - name: Blog
+          pageRef: /blog
+          weight: 1
+        - name: Sobre
+          pageRef: /about
+          weight: 2
+        - name: Contato ↗
+          url: "https://github.com/redmasters"
+          weight: 3
+        - name: Buscar
+          weight: 4
+          params:
+            type: search
+        - name: GitHub
+          weight: 5
+          url: "https://github.com/redmasters/redmasters.github.io"
+          params:
+            icon: github
   en:
     languageName: English
+    languageCode: en-US
     weight: 2
-  pt-br:
-    languageName: Portugues-Brasil
-    weight: 1
+    title: Erasmo Jr.
+    params:
+      description: Erasmo Jr.'s blog about software development, Rust, Java and personal projects.
+    menu:
+      main:
+        - name: Blog
+          pageRef: /blog
+          weight: 1
+        - name: About
+          pageRef: /about
+          weight: 2
+        - name: Contact ↗
+          url: "https://github.com/redmasters"
+          weight: 3
+        - name: Search
+          weight: 4
+          params:
+            type: search
+        - name: GitHub
+          weight: 5
+          url: "https://github.com/redmasters/redmasters.github.io"
+          params:
+            icon: github
+  es:
+    languageName: Español
+    languageCode: es-ES
+    weight: 3
+    title: Erasmo Jr.
+    params:
+      description: Blog de Erasmo Jr. sobre desarrollo de software, Rust, Java y proyectos personales.
+    menu:
+      main:
+        - name: Blog
+          pageRef: /blog
+          weight: 1
+        - name: Sobre mí
+          pageRef: /about
+          weight: 2
+        - name: Contacto ↗
+          url: "https://github.com/redmasters"
+          weight: 3
+        - name: Buscar
+          weight: 4
+          params:
+            type: search
+        - name: GitHub
+          weight: 5
+          url: "https://github.com/redmasters/redmasters.github.io"
+          params:
+            icon: github
   
 # import hextra as module
 module:
@@ -23,27 +99,6 @@ markup:
   # enable hextra syntax highlight
   highlight:
     noClasses: false
-
-menu:
-  main:
-    - name: Blog
-      pageRef: /blog
-      weight: 1
-    - name: About
-      pageRef: /about
-      weight: 2
-    - name: Contact ↗
-      url: "https://github.com/redmasters"
-      weight: 3
-    - name: Search
-      weight: 4
-      params:
-        type: search
-    - name: GitHub
-      weight: 5
-      url: "https://github.com/redmasters/redmasters.github.io"
-      params:
-        icon: github
 
 enableGitInfo: true
 params:

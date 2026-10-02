@@ -4,7 +4,7 @@
     <link>//localhost:1313/</link>
     <description>Recent content in erasmo jr. on Erasmo Jr.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
+    <language>pt-BR</language>
     
 	  <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -22,13 +22,13 @@
       <description>
         
         
-        &lt;p&gt;Sempre que me perguntam como iniciar em programacao eu sempre falo a mesmma coisa, parece ate uma frase batida e repito: &amp;ldquo;Aprenda com projetos&amp;rdquo;, &amp;ldquo;Erre, leia o debug&amp;rdquo;, &amp;ldquo;Leia a documentacao&amp;rdquo;. Creio que seja o caminho mais rapido se voce quer ver como as coisas funcionam. Entao eu estou provando do que eu mesmo digo, estou aprendendo Rust e decidi fazer um projet que me ajuda no dia dia.&lt;/p&gt;
-&lt;p&gt;Vibecodado obviamente, desde o backend ao front, ainda to engatinhando com Rust, mal sei as variaveis basicas, constantes etc. Mas vendo como &amp;ldquo;as coisas funcionam &amp;quot; me faz entender e meio que me obriga a aprender a ler o codigo pois, no final por mais que a IA escreva todo o codigo, eu quero saber se o fluxo esta como planejei, se nao tem algo a ser melhorado e nada melhor que aprender programacao, programando de fato (mesmo que seja o Copilot hehe).&lt;/p&gt;
+        &lt;p&gt;Sempre que me perguntam como iniciar em programação, eu sempre falo a mesma coisa, parece até uma frase batida, e repito: &amp;ldquo;Aprenda com projetos&amp;rdquo;, &amp;ldquo;Erre, leia o debug&amp;rdquo;, &amp;ldquo;Leia a documentação&amp;rdquo;. Creio que seja o caminho mais rápido, se você quer ver como as coisas funcionam. Então eu estou provando do que eu mesmo digo, estou aprendendo Rust e decidi fazer um projeto que me ajuda no dia a dia.&lt;/p&gt;
+&lt;p&gt;Vibecodado, obviamente, desde o backend ao front, ainda tô engatinhando com Rust, mal sei as variáveis básicas, constantes etc. Mas vendo como &amp;ldquo;as coisas funcionam&amp;rdquo; me faz entender e meio que me obriga a aprender a ler o código, pois, no final, por mais que a IA escreva todo o código, eu quero saber se o fluxo está como planejei, se não tem algo a ser melhorado, e nada melhor que aprender programação, programando de fato (mesmo que seja o Copilot hehe).&lt;/p&gt;
 &lt;h2&gt;O Projeto&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;o-projeto&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#o-projeto&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/redoxide.png&#34; alt=&#34;redoxide logo?&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Eh um overlay que fica sobre o Dota2 com alguns paineis com feedbacks visuais e benchmarks da partida atual. Ele eh como um assistente que te indica se voce ta performando bem dentro da partida com dados como &amp;lsquo;farming&amp;rsquo;, &amp;rsquo;timming&amp;rsquo; de itens, patrimonio etc. Sao metricas comuns que voce como jogador acha em sites como o Stratz, DotaBuff e o OpenDota, metricas comuns e gratuitas.&lt;/p&gt;
-&lt;p&gt;Hoje existem overlays que ja fazem muito bem esse trabalho, como o Overwolf Overlay e o Stratz mas certa vez no trabalho eu ouvi que &amp;ldquo;nos programadores somos como pedreiros, fazemos a casa dos outros mas nao construimos nada pra nos&amp;rdquo;. O que faz totalmente sentido pois &amp;ldquo;contruir a casa dos outros&amp;rdquo; eh o nosso trabalho e ao terminar o dia de servico tenho toda certeza que voce nao quer continuar trabalhando. Mais ai nessa ideia que nos como programadores nao construimos nada pra nos, um merda ne?! Dai pensei &amp;ldquo;ora pois, sou programador e vou construir e algo que preciso.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Uni o util (preciso aprender rust) ao agradavel (overlay pro meu dotinha) e to desenvolvendo esse projeto, meu objetivo eh deixar free pra comunidade dota usar e quem sabe contribuir para evolucao, eu peco muito em design de interfaces entao deixo tudo na mao do copilot e das skills sobre ui/ux que encontro.&lt;/p&gt;
+&lt;p&gt;É um overlay que fica sobre o Dota2 com alguns painéis com feedbacks visuais e benchmarks da partida atual. Ele é como um assistente que te indica se você tá performando bem dentro da partida, com dados como &amp;lsquo;farming&amp;rsquo;, &amp;rsquo;timming&amp;rsquo; de itens, patrimônio etc. São métricas comuns que você, como jogador, acha em sites como o Stratz, DotaBuff e o OpenDota, métricas comuns e gratuitas.&lt;/p&gt;
+&lt;p&gt;Hoje existem overlays que já fazem muito bem esse trabalho, como o Overwolf Overlay e o Stratz e outros que te cobram por isso, o que acho injusto até, mas certa vez no trabalho eu ouvi que &amp;ldquo;nós programadores somos como pedreiros, fazemos a casa dos outros, mas não construímos nada pra nós&amp;rdquo;. O que faz totalmente sentido, pois &amp;ldquo;contruir a casa dos outros&amp;rdquo; é o nosso trabalho e, ao terminar o dia de serviço, tenho toda certeza que você não quer continuar trabalhando. Mais aí nessa ideia que nós, como programadores, não construímos nada pra nós, um merda né?! Daí pensei &amp;ldquo;ora pois, sou programador e vou construir e algo que preciso!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Uni o útil (preciso aprender rust) ao agradável (overlay pro meu dotinha) e tô desenvolvendo esse projeto; meu objetivo é deixar free pra comunidade de dota usar e, quem sabe, contribuir para evolução. Eu peco muito em design de interfaces, então deixo tudo na mão do copilot e das skills sobre ui/ux que encontro.&lt;/p&gt;
 &lt;h1&gt;Ibagens&lt;/h1&gt;&lt;p&gt;Algumas screenshots do redoxide:&lt;/p&gt;
 &lt;h2&gt;Painel Gerenciador&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;painel-gerenciador&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#painel-gerenciador&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/manager.png&#34; alt=&#34;Gerenciador&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
@@ -53,8 +53,8 @@
   &lt;p&gt;Painel com sugestao para build de itens, baseado em Win Rates&lt;/p&gt;
 
 &lt;/blockquote&gt;
-&lt;p&gt;Mais paineis ou benchmarks serao adicionados conforme eu achar necessidade, to pensando em algum tracking de performance por posicao (Carry, Mid, Off ou Suportes) mas isso eh soh ideia.&lt;/p&gt;
-&lt;p&gt;Falei falei mas ta aqui o link do git: &lt;a href=&#34;https://github.com/redmasters/redoxide-dota&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/redmasters/redoxide-dota&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mais painéis ou benchmarks serão adicionados conforme eu achar necessidade; tô pensando em algum tracking de performance por posição (Carry, Mid, Off ou Suportes), mas isso é só ideia.&lt;/p&gt;
+&lt;p&gt;Falei falei mas tá aqui o link do git: &lt;a href=&#34;https://github.com/redmasters/redoxide-dota&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/redmasters/redoxide-dota&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -92,8 +92,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
+    title=&#34;Copiar código&#34;
+    aria-label=&#34;Copiar código&#34;
     data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -140,8 +140,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
+    title=&#34;Copiar código&#34;
+    aria-label=&#34;Copiar código&#34;
     data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -205,8 +205,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
+    title=&#34;Copiar código&#34;
+    aria-label=&#34;Copiar código&#34;
     data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -240,8 +240,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
+    title=&#34;Copiar código&#34;
+    aria-label=&#34;Copiar código&#34;
     data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -317,8 +317,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
+    title=&#34;Copiar código&#34;
+    aria-label=&#34;Copiar código&#34;
     data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -369,8 +369,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
+    title=&#34;Copiar código&#34;
+    aria-label=&#34;Copiar código&#34;
     data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -430,8 +430,8 @@ Eh explicado sobre os diferentes tipos de inteiros, nao entendi muito bem mas cr
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
+    title=&#34;Copiar código&#34;
+    aria-label=&#34;Copiar código&#34;
     data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -462,8 +462,8 @@ Ao longo do tutorial nos eh apresentado como instalar outras bibliotecas utiliza
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
+    title=&#34;Copiar código&#34;
+    aria-label=&#34;Copiar código&#34;
     data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -504,8 +504,8 @@ Ao longo do tutorial nos eh apresentado como instalar outras bibliotecas utiliza
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
+    title=&#34;Copiar código&#34;
+    aria-label=&#34;Copiar código&#34;
     data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;

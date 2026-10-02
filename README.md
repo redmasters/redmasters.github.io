@@ -77,3 +77,39 @@ hugo mod tidy
 
 See [Update modules](https://gohugo.io/hugo-modules/use-modules/#update-modules) for more details.
 
+## Traduções (i18n)
+
+O site é multilíngue, com o português (pt-br) como idioma padrão e traduções em inglês e espanhol:
+
+| Idioma | Código | URL |
+| --- | --- | --- |
+| Português (Brasil) | `pt-br` | `/` |
+| English | `en` | `/en/` |
+| Español | `es` | `/es/` |
+
+### Como funciona
+
+- Os idiomas são declarados em `hugo.yaml` (seção `languages`). O `defaultContentLanguage: pt-br` faz o português ser servido na raiz, enquanto os demais idiomas ganham um prefixo (`/en/`, `/es/`).
+- Cada idioma tem seu próprio menu principal (ex.: "Sobre" em pt-br, "About" em inglês e "Sobre mí" em espanhol).
+- Os textos da interface do tema (botões de busca, tema, idioma, "última atualização", etc.) ficam em `i18n/<idioma>.yaml`. Os arquivos do projeto sobrescrevem as chaves do tema Hextra e as demais chaves continuam vindo do tema.
+- A navbar do Hextra monta o seletor de idiomas a partir da seção `languages` do `hugo.yaml`. Caso ele não apareça, verifique a versão do tema.
+
+### Traduzir uma página
+
+Hugo usa o sufixo de idioma no nome do arquivo. O arquivo sem sufixo pertence ao `defaultContentLanguage`:
+
+```text
+content/blog/_post-1.md      # pt-br (idioma padrão, servido em /blog/_post-1/)
+content/blog/_post-1.en.md   # inglês (servido em /en/blog/_post-1/)
+content/blog/_post-1.es.md   # espanhol (servido em /es/blog/_post-1/)
+```
+
+Para publicar um post novo nos três idiomas, crie os três arquivos com o mesmo nome base. Os links internos com `ref`/`relref` apontam automaticamente para a página equivalente no idioma corrente.
+
+### Pré-visualizar
+
+```shell
+hugo server
+```
+
+Depois acesse `http://localhost:1313/` (pt-br), `http://localhost:1313/en/` e `http://localhost:1313/es/`.
