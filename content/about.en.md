@@ -13,6 +13,7 @@ type: about
 ~~software engineer (risk prevention) - **[pagbank](https://pagbank.com.br/)**~~</br>
 ~~software engineer (ready-to-use products) - **[pagbank](https://pagbank.com.br/)**~~</br>
 ~~software engineer (receivables anticipation) - **[pagbank](https://pagbank.com.br/)**~~</br>
+~~backend java developer **[itau](https://www.itau.com.br/)**~~</br>
 mid backend developer - **[ai/r - invillia](https://aircompany.ai/)**
 
 # projects
